@@ -1,0 +1,218 @@
+2015-05-14 09:58:05[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 14:58:56[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:01:25[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:07:24[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:10:29[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:13:51[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:17:45[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:19:47[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:22:19[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:24:04[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:26:20[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:31:32[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:34:17[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:43:52[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:45:08[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 15:48:23[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:00:16[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:00:22[INFO] ==> 获取站点数据异常:No operations allowed after connection closed.
+2015-05-14 16:00:22[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 16:03:46[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:03:52[INFO] ==> 获取站点数据异常:No operations allowed after connection closed.
+2015-05-14 16:05:42[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:05:50[INFO] ==> 获取类目列表数据异常:No operations allowed after connection closed.
+2015-05-14 16:06:36[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:06:42[INFO] ==> 获取类目列表数据异常:No operations allowed after connection closed.
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1014)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1269)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1261)
+	at com.mysql.jdbc.ConnectionImpl.createStatement(ConnectionImpl.java:2593)
+	at com.mysql.jdbc.ConnectionImpl.createStatement(ConnectionImpl.java:2575)
+	at com.sanyanyu.viewer.ViewerFrame.createContentPanel2(ViewerFrame.java:312)
+	at com.sanyanyu.viewer.ViewerFrame$ToolBarAction.actionPerformed(ViewerFrame.java:945)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2015-05-14 16:07:24[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:07:30[INFO] ==> 获取类目列表数据异常:Operation not allowed after ResultSet closed
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:803)
+	at com.mysql.jdbc.ResultSetImpl.next(ResultSetImpl.java:6985)
+	at com.sanyanyu.viewer.ViewerFrame.createContentPanel2(ViewerFrame.java:314)
+	at com.sanyanyu.viewer.ViewerFrame$ToolBarAction.actionPerformed(ViewerFrame.java:945)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2015-05-14 16:08:51[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:11:33[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:12:08[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:13:25[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:16:14[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:18:26[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:20:02[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:27:57[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:39:42[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:41:14[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 16:58:38[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:00:40[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:05:14[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:06:01[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:12:02[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:15:03[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:22:11[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:31:01[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:33:41[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:34:47[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:35:48[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:36:18[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 17:58:06[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:00:00[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:01:34[INFO] ==> 类目信息删除异常:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2015-05-14 18:02:27[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:02:46[INFO] ==> 类目信息删除异常:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2015-05-14 18:04:22[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:06:08[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:06:43[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:16:15[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:16:18[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:16:53[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:18:46[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:18:49[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:19:58[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:20:04[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:21:08[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:21:10[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:22:09[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:22:20[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:22:23[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:25:42[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:25:45[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:27:30[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:30:49[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:31:20[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:31:23[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:32:59[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:33:04[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:33:39[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:33:55[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:35:03[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:36:57[INFO] ==> 获取类目列表数据异常:null
+2015-05-14 18:37:10[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:37:16[INFO] ==> 保存类目信息数据异常:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2015-05-14 18:38:16[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:39:02[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:39:45[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:40:15[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 18:40:35[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:14:30[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:16:28[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:18:37[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:24:02[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:25:21[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:25:35[INFO] ==> 正在下载电商数据，请稍后...
+2015-05-14 19:25:38[INFO] ==> 123.57.229.174：一号店/儿童洗护品/2015-05-06/product.csv
+2015-05-14 19:25:38[INFO] ==> 电商数据下载完成！！！
+2015-05-14 19:27:15[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:27:22[INFO] ==> 正在下载电商数据，请稍后...
+2015-05-14 19:27:24[INFO] ==> 123.57.229.174：大众点评网/团购餐饮/2015-05-06/product.csv
+2015-05-14 19:27:24[INFO] ==> 电商数据下载完成！！！
+2015-05-14 19:27:27[INFO] ==> 正在下载电商数据，请稍后...
+2015-05-14 19:27:29[INFO] ==> 123.57.229.174：大众点评网/团购餐饮/2015-05-06/comment.csv
+2015-05-14 19:27:29[INFO] ==> 电商数据下载完成！！！
+2015-05-14 19:27:42[INFO] ==> 正在下载电商数据，请稍后...
+2015-05-14 19:27:44[INFO] ==> 123.57.229.174：大众点评网/团购餐饮/2015-05-06/comment.csv
+2015-05-14 19:27:44[INFO] ==> 电商数据下载完成！！！
+2015-05-14 19:27:53[INFO] ==> 正在下载电商数据，请稍后...
+2015-05-14 19:27:55[INFO] ==> 123.57.228.191：大众点评网/团购餐饮/2015-04-29/comment.csv
+2015-05-14 19:27:55[INFO] ==> 电商数据下载完成！！！
+2015-05-14 19:28:16[INFO] ==> 正在下载电商数据，请稍后...
+2015-05-14 19:28:18[INFO] ==> 123.57.228.191：大众点评网/团购餐饮/2015-04-29/product.csv
+2015-05-14 19:28:18[INFO] ==> 电商数据下载完成！！！
+2015-05-14 19:30:48[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:30:53[INFO] ==> 正在同步电商数据，请稍后...
+2015-05-14 19:30:53[INFO] ==> 电商数据同步完成！！！
+2015-05-14 19:31:52[INFO] ==> 电商数据查看器启动成功！！！
+2015-05-14 19:32:54[INFO] ==> 保存类目信息数据异常:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2015-05-14 19:33:55[INFO] ==> 电商数据查看器启动成功！！！
